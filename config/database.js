@@ -13,7 +13,7 @@ const dbConnect = () => {
         console.error(error.message)
         //kya hai yeh
         process.exit(1);
-    })
+    });
 }
 
 module.exports = dbConnect; 
